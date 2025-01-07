@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link,useNavigate } from "react-router-dom";
-import Logo from "../assets/favicon.ico";
+import Logo from "../assets/logo.jpeg";
 import authService from "../../appwrite/auth";
 import { login as authLogin } from "../../store/authSlice";
 import {useDispatch} from "react-redux"

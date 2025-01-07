@@ -1,6 +1,6 @@
 import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline';
 import { Link,useNavigate } from 'react-router-dom';
-import Logo from '../assets/favicon.ico';
+import Logo from '../assets/logo.jpeg';
 import {useSelector} from 'react-redux'
 export default function Home() {
   const authStatus = useSelector((state) => state.auth.status)
