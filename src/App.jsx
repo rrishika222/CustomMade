@@ -7,7 +7,7 @@ import SignUp from './components/pages/SignUp';
 import authService from "./appwrite/auth"
 import SignIn from './components/pages/SignIn';
 import Form from './components/pages/Form';
-import Confirmation from './components/pages/confirmation';
+import Confirmation from './components/pages/Confirmation';
 import { useDispatch } from 'react-redux'
 import {login, logout} from "./store/authSlice"
 
